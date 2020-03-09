@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14877.5" systemVersion="19A512f" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Voter" representedClassName="Voter" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="attributedData" optional="YES" attributeType="Binary"/>
+        <attribute name="birthStateCode" optional="YES" attributeType="String"/>
+        <attribute name="congressionalDistrict" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="county" optional="YES" attributeType="String"/>
+        <attribute name="countyCommissioner" optional="YES" attributeType="String"/>
+        <attribute name="countyID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fireDistrict" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="genderCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hasDispatched" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hasEngaged" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="judicialDistrict" optional="YES" attributeType="String"/>
+        <attribute name="lastDispatchID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="mailingAddress" optional="YES" attributeType="String"/>
+        <attribute name="municipalDistrict" optional="YES" attributeType="String"/>
+        <attribute name="municipality" optional="YES" attributeType="String"/>
+        <attribute name="partyCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="raceCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="registrationIsActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="rescueDistrict" optional="YES" attributeType="String"/>
+        <attribute name="residentialAddress" optional="YES" attributeType="String"/>
+        <attribute name="sanitationDistrict" optional="YES" attributeType="String"/>
+        <attribute name="schoolDistrict" optional="YES" attributeType="String"/>
+        <attribute name="sewerDistrict" optional="YES" attributeType="String"/>
+        <attribute name="stateCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateHouseDistrict" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateSenateDistrict" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="superiorCourtDistrict" optional="YES" attributeType="String"/>
+        <attribute name="township" optional="YES" attributeType="String"/>
+        <attribute name="voterID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ward" optional="YES" attributeType="String"/>
+        <attribute name="waterDistrict" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="VoterHistory" representedClassName="VoterHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="districtIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="jsonData" optional="YES" attributeType="Binary"/>
+        <attribute name="stateCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="voterID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="VoterLocation" representedClassName="VoterLocation" syncable="YES" codeGenerationType="class">
+        <attribute name="districtIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="voterID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Voter" positionX="-27" positionY="18" width="128" height="583"/>
+        <element name="VoterHistory" positionX="18" positionY="63" width="128" height="103"/>
+        <element name="VoterLocation" positionX="54" positionY="99" width="128" height="118"/>
+    </elements>
+</model>

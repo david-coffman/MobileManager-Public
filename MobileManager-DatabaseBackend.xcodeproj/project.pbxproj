@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1417112353FE92002BB98B /* CodableVoter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1417102353FE92002BB98B /* CodableVoter.swift */; };
+		CE1417132353FEEB002BB98B /* MigrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1417122353FEEB002BB98B /* MigrationTableViewController.swift */; };
+		CE6A6DB922E28D5C009E0C13 /* ExportLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A6DB822E28D5C009E0C13 /* ExportLog.swift */; };
+		CE6E6D1923BBFAE30052B9A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E6D1823BBFAE30052B9A9 /* MainViewController.swift */; };
+		CE7AC6BC22E210E300C16043 /* Screen Shot 2019-07-19 at 10.52.56 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7AC6BB22E210E300C16043 /* Screen Shot 2019-07-19 at 10.52.56 AM.png */; };
+		CE7CEAB722DEB52300495F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7CEAB622DEB52300495F24 /* LaunchScreen.storyboard */; };
+		CEA547DB22D809DF008565F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547DA22D809DF008565F6 /* AppDelegate.swift */; };
+		CEA547DD22D809DF008565F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547DC22D809DF008565F6 /* SceneDelegate.swift */; };
+		CEA547E522D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA547E322D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodeld */; };
+		CEA547E722D809E1008565F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA547E622D809E1008565F6 /* Assets.xcassets */; };
+		CEA547FE22D80A48008565F6 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F422D80A48008565F6 /* Archive.swift */; };
+		CEA547FF22D80A48008565F6 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F522D80A48008565F6 /* Archive+Reading.swift */; };
+		CEA5480022D80A48008565F6 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F622D80A48008565F6 /* Entry.swift */; };
+		CEA5480122D80A48008565F6 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F722D80A48008565F6 /* Data+Compression.swift */; };
+		CEA5480222D80A48008565F6 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F822D80A48008565F6 /* Archive+Writing.swift */; };
+		CEA5480322D80A48008565F6 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547F922D80A48008565F6 /* Data+Serialization.swift */; };
+		CEA5480422D80A48008565F6 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547FA22D80A48008565F6 /* FileManager+ZIP.swift */; };
+		CEA5480522D80A48008565F6 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547FB22D80A48008565F6 /* StreamReader.swift */; };
+		CEA5480622D80A48008565F6 /* GeneralDAQMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA547FC22D80A48008565F6 /* GeneralDAQMethods.swift */; };
+		CEA5480922D80A65008565F6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CEA5480822D80A65008565F6 /* manifest.json */; };
+		CEA5480D22D80A77008565F6 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5480B22D80A77008565F6 /* PreferencesViewController.swift */; };
+		CEA5480E22D80A77008565F6 /* InstallNewModulesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5480C22D80A77008565F6 /* InstallNewModulesTableViewController.swift */; };
+		CEA5481222D80A7D008565F6 /* WithImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481022D80A7D008565F6 /* WithImageTableViewCell.swift */; };
+		CEA5481322D80A7D008565F6 /* VoterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481122D80A7D008565F6 /* VoterTableViewCell.swift */; };
+		CEA5481622D80A8C008565F6 /* TabularTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481522D80A8C008565F6 /* TabularTableViewController.swift */; };
+		CEA5481922D80A95008565F6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481822D80A95008565F6 /* MapViewController.swift */; };
+		CEA5481C22D80AE0008565F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5481B22D80AE0008565F6 /* Main.storyboard */; };
+		CEA5481E22D80B42008565F6 /* VoterDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481D22D80B42008565F6 /* VoterDetailTableViewController.swift */; };
+		CEA5482022D80BE5008565F6 /* NCDatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5481F22D80BE5008565F6 /* NCDatabaseController.swift */; };
+		CEABDC0722DD4220009408AA /* DistanceFilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABDC0622DD4220009408AA /* DistanceFilterTableViewController.swift */; };
+		CECFAFEF22DAABFF001D6AA1 /* FilterConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFAFEE22DAABFF001D6AA1 /* FilterConfigTableViewController.swift */; };
+		CECFAFF122DAAC11001D6AA1 /* FilterConfigDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFAFF022DAAC11001D6AA1 /* FilterConfigDetailTableViewController.swift */; };
+		CEFC0A3E22D81614006CC22A /* ManifestManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A3D22D81614006CC22A /* ManifestManagement.swift */; };
+		CEFC0A4022D816E3006CC22A /* VoterHistoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC0A3F22D816E3006CC22A /* VoterHistoryManagement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1417102353FE92002BB98B /* CodableVoter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableVoter.swift; sourceTree = "<group>"; };
+		CE1417122353FEEB002BB98B /* MigrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigrationTableViewController.swift; sourceTree = "<group>"; };
+		CE6A6DB822E28D5C009E0C13 /* ExportLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportLog.swift; sourceTree = "<group>"; };
+		CE6E6D1823BBFAE30052B9A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE7AC6BB22E210E300C16043 /* Screen Shot 2019-07-19 at 10.52.56 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-07-19 at 10.52.56 AM.png"; sourceTree = "<group>"; };
+		CE7CEAB622DEB52300495F24 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA547D722D809DF008565F6 /* MobileManager-DatabaseBackend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileManager-DatabaseBackend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA547DA22D809DF008565F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA547DC22D809DF008565F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEA547E422D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileManager_DatabaseBackend.xcdatamodel; sourceTree = "<group>"; };
+		CEA547E622D809E1008565F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA547EB22D809E1008565F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA547F422D80A48008565F6 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		CEA547F522D80A48008565F6 /* Archive+Reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Reading.swift"; sourceTree = "<group>"; };
+		CEA547F622D80A48008565F6 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		CEA547F722D80A48008565F6 /* Data+Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
+		CEA547F822D80A48008565F6 /* Archive+Writing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
+		CEA547F922D80A48008565F6 /* Data+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
+		CEA547FA22D80A48008565F6 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		CEA547FB22D80A48008565F6 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		CEA547FC22D80A48008565F6 /* GeneralDAQMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralDAQMethods.swift; sourceTree = "<group>"; };
+		CEA5480822D80A65008565F6 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CEA5480B22D80A77008565F6 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		CEA5480C22D80A77008565F6 /* InstallNewModulesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallNewModulesTableViewController.swift; sourceTree = "<group>"; };
+		CEA5481022D80A7D008565F6 /* WithImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithImageTableViewCell.swift; sourceTree = "<group>"; };
+		CEA5481122D80A7D008565F6 /* VoterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoterTableViewCell.swift; sourceTree = "<group>"; };
+		CEA5481522D80A8C008565F6 /* TabularTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabularTableViewController.swift; sourceTree = "<group>"; };
+		CEA5481822D80A95008565F6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CEA5481A22D80A9A008565F6 /* MobileManager-DatabaseBackend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MobileManager-DatabaseBackend.entitlements"; sourceTree = "<group>"; };
+		CEA5481B22D80AE0008565F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEA5481D22D80B42008565F6 /* VoterDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoterDetailTableViewController.swift; sourceTree = "<group>"; };
+		CEA5481F22D80BE5008565F6 /* NCDatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCDatabaseController.swift; sourceTree = "<group>"; };
+		CEABDC0622DD4220009408AA /* DistanceFilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceFilterTableViewController.swift; sourceTree = "<group>"; };
+		CECFAFEE22DAABFF001D6AA1 /* FilterConfigTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterConfigTableViewController.swift; sourceTree = "<group>"; };
+		CECFAFF022DAAC11001D6AA1 /* FilterConfigDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterConfigDetailTableViewController.swift; sourceTree = "<group>"; };
+		CEFC0A3D22D81614006CC22A /* ManifestManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestManagement.swift; sourceTree = "<group>"; };
+		CEFC0A3F22D816E3006CC22A /* VoterHistoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterHistoryManagement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA547D422D809DF008565F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA547CE22D809DF008565F6 = {
+			isa = PBXGroup;
+			children = (
+				CEA547D922D809DF008565F6 /* MobileManager-DatabaseBackend */,
+				CEA547E322D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodeld */,
+				CEA547D822D809DF008565F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA547D822D809DF008565F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA547D722D809DF008565F6 /* MobileManager-DatabaseBackend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA547D922D809DF008565F6 /* MobileManager-DatabaseBackend */ = {
+			isa = PBXGroup;
+			children = (
+				CEA547E622D809E1008565F6 /* Assets.xcassets */,
+				CEA547DA22D809DF008565F6 /* AppDelegate.swift */,
+				CEA547DC22D809DF008565F6 /* SceneDelegate.swift */,
+				CEA5481A22D80A9A008565F6 /* MobileManager-DatabaseBackend.entitlements */,
+				CEA547EB22D809E1008565F6 /* Info.plist */,
+				CEA5481B22D80AE0008565F6 /* Main.storyboard */,
+				CE6E6D1823BBFAE30052B9A9 /* MainViewController.swift */,
+				CE1417122353FEEB002BB98B /* MigrationTableViewController.swift */,
+				CE7CEAB622DEB52300495F24 /* LaunchScreen.storyboard */,
+				CEABDC0822DD4306009408AA /* Distance Filter VC */,
+				CECFAFF322DAAC81001D6AA1 /* Filter Config VC */,
+				CECFAFF222DAAC72001D6AA1 /* Filter Config Detail VC */,
+				CECFAFED22DAA697001D6AA1 /* Voter Detail VC */,
+				CEA5480F22D80A7D008565F6 /* UITableViewCells */,
+				CEA5481422D80A8C008565F6 /* Table VC */,
+				CEA5481722D80A95008565F6 /* Map VC */,
+				CEA5480A22D80A77008565F6 /* Settings VCs */,
+				CEA5480722D80A65008565F6 /* Resources */,
+				CEA547F122D80A48008565F6 /* DAQ */,
+			);
+			path = "MobileManager-DatabaseBackend";
+			sourceTree = "<group>";
+		};
+		CEA547F122D80A48008565F6 /* DAQ */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A6DB822E28D5C009E0C13 /* ExportLog.swift */,
+				CEA547F322D80A48008565F6 /* ZipFrameworkClasses */,
+				CEA547FC22D80A48008565F6 /* GeneralDAQMethods.swift */,
+				CEFC0A3D22D81614006CC22A /* ManifestManagement.swift */,
+				CEFC0A3F22D816E3006CC22A /* VoterHistoryManagement.swift */,
+				CEA5481F22D80BE5008565F6 /* NCDatabaseController.swift */,
+				CEA547FB22D80A48008565F6 /* StreamReader.swift */,
+				CE1417102353FE92002BB98B /* CodableVoter.swift */,
+			);
+			path = DAQ;
+			sourceTree = "<group>";
+		};
+		CEA547F322D80A48008565F6 /* ZipFrameworkClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CEA547F422D80A48008565F6 /* Archive.swift */,
+				CEA547F522D80A48008565F6 /* Archive+Reading.swift */,
+				CEA547F622D80A48008565F6 /* Entry.swift */,
+				CEA547F722D80A48008565F6 /* Data+Compression.swift */,
+				CEA547F822D80A48008565F6 /* Archive+Writing.swift */,
+				CEA547F922D80A48008565F6 /* Data+Serialization.swift */,
+				CEA547FA22D80A48008565F6 /* FileManager+ZIP.swift */,
+			);
+			path = ZipFrameworkClasses;
+			sourceTree = "<group>";
+		};
+		CEA5480722D80A65008565F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC6BB22E210E300C16043 /* Screen Shot 2019-07-19 at 10.52.56 AM.png */,
+				CEA5480822D80A65008565F6 /* manifest.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEA5480A22D80A77008565F6 /* Settings VCs */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5480B22D80A77008565F6 /* PreferencesViewController.swift */,
+				CEA5480C22D80A77008565F6 /* InstallNewModulesTableViewController.swift */,
+			);
+			path = "Settings VCs";
+			sourceTree = "<group>";
+		};
+		CEA5480F22D80A7D008565F6 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5481022D80A7D008565F6 /* WithImageTableViewCell.swift */,
+				CEA5481122D80A7D008565F6 /* VoterTableViewCell.swift */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		CEA5481422D80A8C008565F6 /* Table VC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5481522D80A8C008565F6 /* TabularTableViewController.swift */,
+			);
+			path = "Table VC";
+			sourceTree = "<group>";
+		};
+		CEA5481722D80A95008565F6 /* Map VC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5481822D80A95008565F6 /* MapViewController.swift */,
+			);
+			path = "Map VC";
+			sourceTree = "<group>";
+		};
+		CEABDC0822DD4306009408AA /* Distance Filter VC */ = {
+			isa = PBXGroup;
+			children = (
+				CEABDC0622DD4220009408AA /* DistanceFilterTableViewController.swift */,
+			);
+			path = "Distance Filter VC";
+			sourceTree = "<group>";
+		};
+		CECFAFED22DAA697001D6AA1 /* Voter Detail VC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5481D22D80B42008565F6 /* VoterDetailTableViewController.swift */,
+			);
+			path = "Voter Detail VC";
+			sourceTree = "<group>";
+		};
+		CECFAFF222DAAC72001D6AA1 /* Filter Config Detail VC */ = {
+			isa = PBXGroup;
+			children = (
+				CECFAFF022DAAC11001D6AA1 /* FilterConfigDetailTableViewController.swift */,
+			);
+			path = "Filter Config Detail VC";
+			sourceTree = "<group>";
+		};
+		CECFAFF322DAAC81001D6AA1 /* Filter Config VC */ = {
+			isa = PBXGroup;
+			children = (
+				CECFAFEE22DAABFF001D6AA1 /* FilterConfigTableViewController.swift */,
+			);
+			path = "Filter Config VC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA547D622D809DF008565F6 /* MobileManager-DatabaseBackend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA547EE22D809E1008565F6 /* Build configuration list for PBXNativeTarget "MobileManager-DatabaseBackend" */;
+			buildPhases = (
+				CEA547D322D809DF008565F6 /* Sources */,
+				CEA547D422D809DF008565F6 /* Frameworks */,
+				CEA547D522D809DF008565F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileManager-DatabaseBackend";
+			productName = "MobileManager-DatabaseBackend";
+			productReference = CEA547D722D809DF008565F6 /* MobileManager-DatabaseBackend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA547CF22D809DF008565F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "David Coffman";
+				TargetAttributes = {
+					CEA547D622D809DF008565F6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CEA547D222D809DF008565F6 /* Build configuration list for PBXProject "MobileManager-DatabaseBackend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA547CE22D809DF008565F6;
+			productRefGroup = CEA547D822D809DF008565F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA547D622D809DF008565F6 /* MobileManager-DatabaseBackend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA547D522D809DF008565F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5480922D80A65008565F6 /* manifest.json in Resources */,
+				CE7CEAB722DEB52300495F24 /* LaunchScreen.storyboard in Resources */,
+				CEA547E722D809E1008565F6 /* Assets.xcassets in Resources */,
+				CE7AC6BC22E210E300C16043 /* Screen Shot 2019-07-19 at 10.52.56 AM.png in Resources */,
+				CEA5481C22D80AE0008565F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA547D322D809DF008565F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5480022D80A48008565F6 /* Entry.swift in Sources */,
+				CEA5481222D80A7D008565F6 /* WithImageTableViewCell.swift in Sources */,
+				CE1417132353FEEB002BB98B /* MigrationTableViewController.swift in Sources */,
+				CEABDC0722DD4220009408AA /* DistanceFilterTableViewController.swift in Sources */,
+				CEA5480422D80A48008565F6 /* FileManager+ZIP.swift in Sources */,
+				CEA5481922D80A95008565F6 /* MapViewController.swift in Sources */,
+				CE6A6DB922E28D5C009E0C13 /* ExportLog.swift in Sources */,
+				CECFAFF122DAAC11001D6AA1 /* FilterConfigDetailTableViewController.swift in Sources */,
+				CEFC0A3E22D81614006CC22A /* ManifestManagement.swift in Sources */,
+				CEA5481322D80A7D008565F6 /* VoterTableViewCell.swift in Sources */,
+				CEA547E522D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodeld in Sources */,
+				CECFAFEF22DAABFF001D6AA1 /* FilterConfigTableViewController.swift in Sources */,
+				CEA5480D22D80A77008565F6 /* PreferencesViewController.swift in Sources */,
+				CE6E6D1923BBFAE30052B9A9 /* MainViewController.swift in Sources */,
+				CEA5480E22D80A77008565F6 /* InstallNewModulesTableViewController.swift in Sources */,
+				CEA5481E22D80B42008565F6 /* VoterDetailTableViewController.swift in Sources */,
+				CEA5480122D80A48008565F6 /* Data+Compression.swift in Sources */,
+				CEA547DB22D809DF008565F6 /* AppDelegate.swift in Sources */,
+				CEA547FE22D80A48008565F6 /* Archive.swift in Sources */,
+				CEA547DD22D809DF008565F6 /* SceneDelegate.swift in Sources */,
+				CEA5481622D80A8C008565F6 /* TabularTableViewController.swift in Sources */,
+				CEA5480622D80A48008565F6 /* GeneralDAQMethods.swift in Sources */,
+				CEA547FF22D80A48008565F6 /* Archive+Reading.swift in Sources */,
+				CEFC0A4022D816E3006CC22A /* VoterHistoryManagement.swift in Sources */,
+				CE1417112353FE92002BB98B /* CodableVoter.swift in Sources */,
+				CEA5480222D80A48008565F6 /* Archive+Writing.swift in Sources */,
+				CEA5480522D80A48008565F6 /* StreamReader.swift in Sources */,
+				CEA5480322D80A48008565F6 /* Data+Serialization.swift in Sources */,
+				CEA5482022D80BE5008565F6 /* NCDatabaseController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEA547EC22D809E1008565F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA547ED22D809E1008565F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA547EF22D809E1008565F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MobileManager-DatabaseBackend/MobileManager-DatabaseBackend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 53JTTUTF7V;
+				INFOPLIST_FILE = "MobileManager-DatabaseBackend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidcoffman.mobilemanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA547F022D809E1008565F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MobileManager-DatabaseBackend/MobileManager-DatabaseBackend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 53JTTUTF7V;
+				INFOPLIST_FILE = "MobileManager-DatabaseBackend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidcoffman.mobilemanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA547D222D809DF008565F6 /* Build configuration list for PBXProject "MobileManager-DatabaseBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA547EC22D809E1008565F6 /* Debug */,
+				CEA547ED22D809E1008565F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA547EE22D809E1008565F6 /* Build configuration list for PBXNativeTarget "MobileManager-DatabaseBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA547EF22D809E1008565F6 /* Debug */,
+				CEA547F022D809E1008565F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEA547E322D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEA547E422D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodel */,
+			);
+			currentVersion = CEA547E422D809DF008565F6 /* MobileManager_DatabaseBackend.xcdatamodel */;
+			path = MobileManager_DatabaseBackend.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEA547CF22D809DF008565F6 /* Project object */;
+}
